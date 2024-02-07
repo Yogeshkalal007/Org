@@ -34,12 +34,26 @@ public class BaseTest {
 
 	public WebDriver driver;
 	public LandingPage landingPage;
+	
+	public void test() {
+		
+		
+		
+		System.out.println("Hllo");
+
+		System.out.println("Hllo");
+		System.out.println("Hllo");
+		System.out.println("Test");
+	}
+	
 
 	public WebDriver initializeDriver() throws IOException
 
 	{
 		// properties class
 
+		
+		
 		 Properties prop = new Properties();
 		FileInputStream fis = new FileInputStream(System.getProperty("user.dir")
 				+ "//src//main//java//rahulshettyacademy//resources//GlobalData.properties");

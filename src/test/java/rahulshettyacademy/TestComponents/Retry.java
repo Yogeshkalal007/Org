@@ -18,6 +18,21 @@ public class Retry implements IRetryAnalyzer {
 		}
 		return false;
 	}
+	
+	public void testing() {
+		
+		System.out.println("dsds");
+	}
+	
+public void testinga() {
+		
+		System.out.println("dsds");
+	}
+
+public void testingb() {
+	
+	System.out.println("dsds");
+}
 
 	
 	
